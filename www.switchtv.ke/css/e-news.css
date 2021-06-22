@@ -1,0 +1,16 @@
+p, ul li, ol li{
+    font-size:0.75rem !important;
+}
+figcaption{
+    text-align:left;
+    font-size:0.8rem;
+}
+.suggestedstory {
+    max-width: 360px;
+    position: fixed;
+    right: 20px;
+    bottom: 10vh;
+    display: none;
+    z-index: 1000;
+    background-color: #000;
+}

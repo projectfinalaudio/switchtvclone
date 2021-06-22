@@ -1,0 +1,127 @@
+﻿/*...Alfonce codes here.........*/
+.btn-showMore {
+    border: solid 1px #ffcd00;
+    background-color: #000;
+    color: #fff;
+    padding:5px 10px;
+}
+.fb-bg{
+	color: #385696 !important;
+}
+.twitter-bg{
+	color: #4ab3f4 !important;
+
+}
+.youtube-bg{
+	color: #ff0000 !important;
+}
+.instagram-bg{
+	color: #e6296b !important;
+}
+
+/*...search form  css....*/
+/*.input-group .md-form form-sm.form-1 input {
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.input-group .md-form .form-sm .form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group {
+    width: 20%;
+}
+.searchsection .form-control {
+    height: calc(1.25rem + 2px) !important;
+    padding: .375rem .75rem;
+    font-size: 0.75rem !important;
+    background-color: rgba(179, 179, 179,0.3) !important;
+    color:#fff !important;
+}
+.input-group .md-form .form-sm .form-2 input .red-border {
+    border: 1px solid #ef9a9a;
+}
+
+.input-group .md-form .form-sm .form-2 input .lime-border {
+    border: 1px solid #cddc39;
+}
+
+.input-group .md-form .form-sm .form-2 input .amber-border {
+    border: 1px solid #ffca28;
+}
+.searchBtn .input-group-text {
+    font-size: 0.5rem !important;
+}*/
+.searchbar {
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: rgba(179, 179, 179,0.3);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input {
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background-color:transparent;
+    width: 0;
+    caret-color: transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover {
+    width: 30%;
+}
+.searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 70%;
+    caret-color: red;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+    background: white;
+    color: #e74c3c;
+}
+
+.search_icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+.capitalise{
+    text-transform:capitalize !important;
+}
+.lowercase{
+    text-transform:lowercase !important;
+}
+.uppercase {
+    text-transform:uppercase !important;
+}
+.badge {
+    font-weight: normal !important;
+}
+.badge-danger {
+    color: #fff;
+    background-color: #ff0000 !important;
+}
+.xmassTree {
+    position: fixed;
+    right: 15px;
+    bottom: -5px;
+    z-index: 1000;
+    text-align: right;
+}
+.xmassTree img{
+    width:15%; height:auto;
+}

@@ -1,0 +1,54 @@
+﻿/*#othervids::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#othervids::-webkit-scrollbar {
+    width: 12px;
+    background-color: #fff;
+}
+
+#othervids::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #ff8200;
+}*/
+#mainvid, #othervids {
+    height: 34rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 6px;
+    overflow-y: scroll;
+    scrollbar-color: #300026 #300026;
+    scrollbar-track-color: #300026;
+    scrollbar-width: thin;
+}
+
+#othervids::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #300026;
+}
+
+#othervids::-webkit-scrollbar {
+    width: 6px;
+    background-color: #300026;
+}
+
+#othervids::-webkit-scrollbar-thumb {
+    background-color: #300026;
+}
+
+#mainvid::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #300026;
+}
+
+#mainvid::-webkit-scrollbar {
+    width: 6px;
+    background-color: #300026;
+}
+
+#mainvid::-webkit-scrollbar-thumb {
+    background-color: #300026;
+}
